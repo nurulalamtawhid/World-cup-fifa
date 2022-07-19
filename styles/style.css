@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    
+}
+.banner{
+    width: 1341px;
+    height: 450px;
+    background-color:#1F143B;
+    background-image: linear-gradient(to right, #1F143B , rgb(136, 136, 20));
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.banner-text{
+    height: 452px;
+    width: 431px;
+    padding: 140px 200px;
+    
+  
+}
+.banner-text>h1{
+    color: white;
+}
+.banner-text>p{
+    color: white;
+}
+.banner-text>button{
+    width: 130px;
+    height: 34px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: #01C689;
+    border: none;
+}
+.banner-text>button:hover{
+    background-color: red;
+}
+
+.fa-solid.banner-btn{
+    padding-left: 20px;
+   
+}
+.banner-img{
+    padding: 110px 20px;
+   
+    
+
+
+}
+.List-transfer{
+    margin-top: 90px;
+    padding-left: 80px;
+    padding-right: 120px;
+}
+.list-blogs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+#blogg{
+    grid-area: 1/1/span 3/span 1;
+    height:250px;
+    width: 300px;
+    padding-top: 20px;
+    
+    
+    
+}
+.blog{
+    margin-left: 20px;
+    background-color:#1F143B;
+    border-radius: 9px;
+  
+    
+
+}
+.live{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    
+    border-radius: 5px;
+    margin-top: 25px;
+    
+}
+.live>button{
+    background-color: #01C689;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 6px;
+}
+.live>button:hover{
+    background-color: red;
+}
+
+
+
+.list{
+    height: 362px;
+    width: 312px;
+    border: 1px solid #D9D9Db;
+    border-radius: 10px;
+    box-shadow: 1px 1.45px #D9D9Db;
+    padding: 10px 15px;
+}
+.list-info>button{
+    margin-top: 12px;
+    height: 34px;
+    width: 80px;
+    font-size: 16px;
+    background-color: #ffff;
+    border-color: black;
+    border-radius: 6px;
+}
+.fa-solid.clocks{
+    font-size: 20px;
+    color: #1F143B;
+    
+}
