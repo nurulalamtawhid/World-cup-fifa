@@ -6,6 +6,7 @@ body{
     height: 1120px;
     
 }
+/*==================banner section==========*/
 .banner{
     width: 1341px;
     height: 450px;
@@ -58,7 +59,7 @@ body{
     height: 350px;
     width: 400px;
 }
-
+/*=====================listing=======================*/
 .List-transfer{
     margin-top: 90px;
     
@@ -186,7 +187,7 @@ body{
 .fixture-blog>p{
     padding-left: 80px;
 }
-
+/*=====================Footer=======================*/
 footer{
     background-color: #1F143B;
     height: fit-content;
@@ -228,6 +229,22 @@ h4{
 .fa-brands{
     color:aliceblue
 }
+
+
+
+
+
+
+
+/*==============================Responsive Start=======================
+==================================================================*/
+
+
+
+
+
+
+
 /*==============================Tablet-Device=======================
 ==================================================================*/
 @media only screen and (max-width:992px) {
@@ -321,6 +338,7 @@ h4{
 .List-transfer>button:hover{
     background-color: red;
 }
+/*=====================Footer=======================*/
 .footer-info{
     grid-template-columns: repeat(3,1fr);
 }
@@ -452,6 +470,7 @@ h4{
         background-color: #532174;
         border: none;
     }
+ /*=====================Footer=======================*/
 footer{
     width: 100%;
     overflow: hidden;
@@ -461,3 +480,5 @@ footer{
 }
 }
 
+ /*==================Moblie-Devices end=================
+  =================================================*/  
