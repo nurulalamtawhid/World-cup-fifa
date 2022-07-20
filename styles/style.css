@@ -57,25 +57,22 @@ body{
     height: 350px;
     width: 400px;
 }
-.banner-img{
-    
-    height: 400px;
-    width: 50px;
-   
-    
 
-
-}
 .List-transfer{
     margin-top: 90px;
-    padding-left: 80px;
-    padding-right: 120px;
+    
 }
 .list-blogs{
     display: grid;
     grid-template-columns: repeat(4,21rem);
     gap: 20px;
     justify-content: center;
+}
+.images2{
+    
+    height: 201px;
+    width: 311px;
+
 }
 .list-blogs>button{
     display: none;
@@ -235,33 +232,34 @@ h4{
 @media only screen and (max-width:688px) {
     body{
         width: auto;
+        
     }
     /*==================banner section==========*/
     .banners{
         width: 100%;
+        overflow: hidden;
     }
     .banner{
         width: 100%;
         margin: 0% 0%;
         flex-direction: column;
-        padding-left: 96px;
+        
+        border-radius: 0px;
         
     }
     .banner-text{
-        width: 47%;
+        width: 100%;
         height: 100px;
         padding:0% 0%;
-        padding-left: 10px;
         text-align: center;
     }
-    .images{
-      
-    padding-left: 31px;
-    padding-right: 45px;
-    padding-top: 112px;
-    height: 236px;
-    width: 176px;
-    }
+    .images {
+        padding-left: 0px;
+        
+        padding-top: 81px;
+        height: 269px;
+        width: 100%;
+}
     .banner-text>h1{
         font-size: 13px;
     }
@@ -277,20 +275,62 @@ h4{
 
     /*=====================listing=======================*/
     .List-transfer {
-        margin-top: 90px;
-        padding-left: 0;
-        padding-right: 0;
+        margin-top: 10px;
+        padding: 0%;
+        width: 100%;
+        overflow: hidden;
     }
     .list-blogs{
-        grid-template-columns: repeat(1,2px);
-        padding-right: 191px;
-        margin-right:  150px;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    #blogg{
+        width: 100%;
     }
     .blog {
         margin-left: 5px;
         background-color:white;
-    
+    }
+    .live{
+        width: 100%;
+    }
+    .live>button {
+        margin-left: 27px;
+        
+        width: 100%;
+    }
+    .live>a>button{
+        width: 100%;
+        margin-left: 27px;
+    }
+    .list>article{
+        width: 100%;
+    }
+    .list {
+        height: 440px;
+        width: 100%;
+        border: 1px solid #D9D9Db;
+        box-shadow: 1px 1.45px #d9d9db;
+        padding: 10px 15px;
+    }
+    .images2{
+        height: 205px;
+        width: 100%;
+    }
+    .list-info>button{
+        width: 100%;
+    }
+    h3{
+        width: 100%;
+    }
+    .fixture-blog{
+        width: 100%;
+    }
+footer{
+    width: 100%;
+    overflow: hidden;
 }
 .footer-info{
     grid-template-columns: repeat(1,1fr);
+}
 }
