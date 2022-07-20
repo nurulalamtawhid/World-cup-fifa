@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
+    height: 1120px;
     
 }
 .banner{
@@ -74,7 +75,7 @@ body{
     width: 311px;
 
 }
-.list-blogs>button{
+.List-transfer>button{
     display: none;
     width: 130px;
     height: 34px;
@@ -83,22 +84,21 @@ body{
     background-color: #532174;
     border: none;
 }
-.list-blogs>button:hover{
+.List-transfer>button:hover{
     background-color: red;
 }
 #blogg{
+    width: 100%;
     grid-area: 1/1/span 3/span 1;
-    height:250px;
-    width: 300px;
-    padding-top: 20px;
-    
+    height: 265px;
     
     
 }
 .blog{
-    margin-left: 20px;
+    margin-left: 0px;
     background-color:#1F143B;
     border-radius: 9px;
+    height: 100px;
   
     
 
@@ -228,6 +228,121 @@ h4{
 .fa-brands{
     color:aliceblue
 }
+/*==============================Tablet-Device=======================
+==================================================================*/
+@media only screen and (max-width:992px) {
+   body{
+     width: auto;
+        
+}
+/*==================banner section==========*/
+.banners{
+    width: 100%;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    margin: 0% 0%;
+    
+    
+    border-radius: 0px;
+    
+}
+.banner-text{
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.banner-text>h1{
+    font-size: 13px;
+}
+
+.banner-text>p{
+    font-size: 8px;
+    font-weight: 400;
+}
+.banner-text>button{
+    margin-top: 10px;
+    
+}
+.images {
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 450px;
+    width: 100%;
+}
+/*=====================listing=======================*/
+.List-transfer {
+    margin-top: 10px;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+}
+.list-blogs{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+#blogg{
+    width: 100%;
+    grid-area: 1/1/span 1/span 2;
+}
+.blog {
+    margin-left: 5px;
+    background-color:white;
+}
+.live{
+    width: 100%;
+    grid-template-columns: repeat(3,235px);
+}
+.live>button {
+     width: 100%;
+     margin-left: 0px;
+    
+}
+.live>a>button{
+    width: 100%;
+    margin-left: 0px;
+}
+.list>article{
+    width: 100%;
+}
+.List-transfer>button{
+    display: inline;
+    width: 130px;
+    height: 34px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: #532174;
+    border: none;
+}
+.List-transfer>button:hover{
+    background-color: red;
+}
+.footer-info{
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+
+ /*==================Tablet-Devices end=================
+  =================================================*/  
+
+
+
+
+
+
+
+
+
+
+
+
+  /*==================Mobile-Devices=================
+  =================================================*/  
 
 @media only screen and (max-width:688px) {
     body{
@@ -292,6 +407,7 @@ h4{
         background-color:white;
     }
     .live{
+        grid-template-columns: repeat(1,1fr);
         width: 100%;
     }
     .live>button {
@@ -318,7 +434,7 @@ h4{
         width: 100%;
     }
     .list-info>button{
-        width: 100%;
+        width: 20%;;
     }
     h3{
         width: 100%;
@@ -334,3 +450,4 @@ footer{
     grid-template-columns: repeat(1,1fr);
 }
 }
+
