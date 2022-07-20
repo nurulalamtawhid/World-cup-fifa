@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
     
 }
 .banner{
@@ -30,13 +32,18 @@ body{
 .banner-text>button{
     width: 130px;
     height: 34px;
-    border-radius: 8px;
     color: aliceblue;
     background-color: #01C689;
-    border: none;
+   border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 0 rgb(107, 109, 224);
+    transition: ease-out 0.5s;
+    outline: none;
 }
 .banner-text>button:hover{
-    background-color: red;
+    box-shadow: inset 130px 0 0 0 rgb(114, 168, 238);
+    cursor: pointer;
+    color: white;
 }
 
 .fa-solid.banner-btn{
@@ -60,6 +67,18 @@ body{
     grid-template-columns: auto auto auto auto;
     gap: 20px;
     justify-content: center;
+}
+.list-blogs>button{
+    display: none;
+    width: 130px;
+    height: 34px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: #532174;
+    border: none;
+}
+.list-blogs>button:hover{
+    background-color: red;
 }
 #blogg{
     grid-area: 1/1/span 3/span 1;
@@ -131,11 +150,65 @@ body{
     width: 80px;
     font-size: 16px;
     background-color: #ffff;
-    border-color: black;
+    border: 0.8px solid #689740;
     border-radius: 6px;
 }
 .fa-solid.clocks{
     font-size: 20px;
     color: #1F143B;
     
+}
+.fixture-blog{
+    height: 262px;
+    width: 312px;
+    border: 1px solid #D9D9Db;
+    border-radius: 10px;
+    box-shadow: 1px 1.45px #D9D9Db;
+    padding: 10px 15px;
+}
+.fixture{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding-top: 60px;
+}
+.fixture-blog>h2{
+    padding-left: 30px;
+}
+.fixture-blog>p{
+    padding-left: 80px;
+}
+
+footer{
+    background-color: #1F143B;
+    height: fit-content;
+    
+}
+footer>h2{
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 90px;
+    padding-top: 30px;
+}
+hr{
+    width: 85%;
+    border: 0.5px solid #3c3c50;
+  
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+h4{
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 100;
 }
