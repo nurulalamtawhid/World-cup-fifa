@@ -237,6 +237,7 @@ h4{
 
 
 /*==============================Responsive Start=======================
+============================                         ==========================
 ==================================================================*/
 
 
@@ -334,6 +335,8 @@ h4{
     color: aliceblue;
     background-color: #532174;
     border: none;
+    margin-left: 42%;
+    margin-top: 19px;
 }
 .List-transfer>button:hover{
     background-color: red;
